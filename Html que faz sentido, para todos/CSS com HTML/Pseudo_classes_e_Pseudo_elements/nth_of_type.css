@@ -1,0 +1,5 @@
+article p:nth-of-type(2) {
+  font-weight: bolder;
+  font-size: 18px;
+  color: blue;
+}

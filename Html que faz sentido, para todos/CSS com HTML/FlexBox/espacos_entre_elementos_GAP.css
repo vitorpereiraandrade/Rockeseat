@@ -1,0 +1,13 @@
+.box {
+  display: flex;
+
+  align-items: center;
+
+  border: 1px dashed red;
+
+  gap: 5px;
+}
+
+.box div {
+  border: 1px solid;
+}

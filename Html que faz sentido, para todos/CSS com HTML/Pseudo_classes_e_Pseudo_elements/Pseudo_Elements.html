@@ -1,0 +1,70 @@
+<!--
+Pseudo-elements
+Com pseudo-elements nós podemos adicionar elementos HTML pelo próprio CSS
+
+::pseudo-element-name
+
+💻 Exemplos
+::before adiciona um pseudo-elemento antes do elemento selecionado.
+
+HTML
+
+<ul>
+  <li>Gratidão</li>
+  <li>Esperança</li>
+  <li>Fé</li>
+  <li>Liberdade</li>
+</ul>
+CSS
+
+li::before {
+  content: "> "
+}
+::after adiciona um pseudo-elemento depois do elemento selecionado.
+
+li::after{
+  content: ";"
+}
+Tanto para o ::before quanto para o ::after é preciso adicionar o content, mesmo que ele seja vazio content = "";
+
+::first-line pega a primeira linha de um texto.
+
+p::first-line {
+	font-weight: bold;
+}
+Referência
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+
+  <link rel="stylesheet" href="./Pseudo_Elements.css">
+
+</head>
+<body>
+<li>Gratidão</li>
+<li>ratidão</li>
+<li>atidão</li>
+<li>tidão</li>
+<li>dão</li>
+<li>ão</li>
+
+<p>fgggggggggggggggggggggggggggggggggggggggggggggggggg
+fgfgfgffffffffffffffffffffffffffffffffffffffffffffff
+fgfgfgfgfgfgfgfgfgffgfggggggggggggggggggggggg
+çççççççççççççççççççççççççççççççççççççççççççç
+ghghghgghghgghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+ghghgggggggggggggggggggggggggggggggggggggggggggggggg
+</p>
+
+</body>
+</html>

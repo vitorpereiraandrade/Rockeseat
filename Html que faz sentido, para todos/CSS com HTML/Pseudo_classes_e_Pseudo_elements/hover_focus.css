@@ -1,0 +1,6 @@
+a:hover {
+  color: red;
+}
+input:focus {
+  border-color: red;
+}

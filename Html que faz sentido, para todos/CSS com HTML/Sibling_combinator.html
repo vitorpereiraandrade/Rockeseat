@@ -1,0 +1,75 @@
+<!--
+
+Adjacent sibling combinator
+Identificado pelo sinal + entre dois seletores
+Seleciona somente o elemento do lado direito que é irmão direto na hierarquia
+HTML
+
+<h1>
+  Título
+</h1>
+<p>
+  Esse é um parágrafo
+</p>
+<p>
+  Mais um parágrafo
+</p>
+CSS
+
+h1 + p {
+	color: red;
+}
+General sibling combinator
+Identificado pelo sinal ~ entre dois seletores
+Seleciona todos os elementos irmãos
+HTML
+
+<h1>
+  Título
+</h1>
+<p>
+  Esse é um parágrafo
+</p>
+<p>
+  Mais um parágrafo
+</p>
+CSS
+
+h1 ~ p {
+	color: red;
+}       -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <link rel="stylesheet" href="./Sibling_combinator.css">
+
+</head>
+<body>
+
+<h1>
+  Titulo
+</h1>
+
+<p>
+  Esse é um paragrafo
+</p>
+
+<p>
+  Mais um paragrafo
+</p>
+
+<button>Um botão</button>
+<button>Outro click</button>
+
+
+<h2> Outro titulo</h2>
+
+<p> Outro paragrafo</p>
+<p> Outro paragrafo 2</p>
+
+</body>
+</html>
